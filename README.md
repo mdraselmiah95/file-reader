@@ -1,4 +1,4 @@
-# Brand Link Extractor
+# file-reader
 
 A simple Node.js script that parses a user-provided HTML file containing brand links and generates a JavaScript module exporting an array of `{ id, label, value }` objects. Perfect for converting a list of `<a href="/brands/...">` elements into a structured data file.
 
@@ -20,8 +20,8 @@ A simple Node.js script that parses a user-provided HTML file containing brand l
 1. **Clone this repo**
 
    ```bash
-   git clone https://github.com/<your-username>/brand-link-extractor.git
-   cd brand-link-extractor
+   git clone https://github.com/mdraselmiah95/file-reader.git
+   cd file-reader
    ```
 
 2. **(Optional) Install dependencies**
